@@ -2,7 +2,7 @@
 local Vape = loadstring(game:HttpGet("https://raw.githubusercontent.com/danielga3/Vape-UI/main/Vape%20UI.lua"))()
 
 -- Khởi tạo UI chính
-local Window = Vape.CreateWindow("Grayx", "GRAYX")
+local Window = Vape.CreateWindow("Grayx", "cat real")
 
 -- Tạo Tab "Farming" cho các toggle tính năng
 local FarmingTab = Window:AddTab("Farming")
@@ -249,4 +249,4 @@ SettingsSection:AddDropdown("Đổi Theme", {
 })
 
 -- Khởi tạo UI
-Vape:Notify("Grayx đã sẵn sàng!", "info")
+Vape:Notify("saygex đã sẵn sàng!", "info")
